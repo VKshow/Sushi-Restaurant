@@ -1,4 +1,7 @@
-$(document).ready(function() {
+
+
+
+  $(document).ready(function() {
     
     $('form').submit(function(e) {
         e.preventDefault();
@@ -29,26 +32,4 @@ form.addEventListener("submit", function(event) {
   alert("Form submitted successfully!");
 });
 
-let scrollpos = window.scrollY;
-console.log(scrollpos);
 
-const header = document.querySelector(".header");
-const scrollChange = 700;
-const main = document.querySelector("body");
-
-const add_class_on_scroll = () => header.classList.add("fixed");
-const remove_class_on_scroll = () => header.classList.remove("fixed");
-
-window.addEventListener('scroll', function() { 
-  scrollpos = window.scrollY;
-
-  if (scrollpos >= scrollChange) { 
-    add_class_on_scroll();
-    main.classList.add("bodyMargin");
-  } else { 
-    remove_class_on_scroll();
-    main.classList.remove("bodyMargin"); 
-  }
-  
-  
-});
