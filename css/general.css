@@ -157,20 +157,20 @@ a {
     margin-left: 12%;
 }
 /* section menu */
-.menu{
+.choose{
     width: 100%;
     padding: 10%;
     
 }
 
-.menu__item {
+.choose__item {
     margin-top: 30px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.menu__item-img {
+.choose__item-img {
     width: 100%;
 }
 /* section about */
