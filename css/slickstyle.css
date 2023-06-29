@@ -40,7 +40,7 @@
     transform: translateY(-50%);
     left: -66px;
     border: none;
-    background-color: white;
+    background-color: transparent;
 }
 .slik-prev img{
     width: 31px;
